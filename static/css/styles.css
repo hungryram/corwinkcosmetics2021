@@ -1,0 +1,174 @@
+/* NAVBAR */
+
+.navbar-item img {
+    max-height: 3.75rem;
+}
+
+a.navbar-item {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+a.cart-button {
+    background-image: linear-gradient(to right, #b28ae6 0%, #7FD7EF 51%, #8c51d8 100%);
+    transition: .2s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+}
+
+div.search-nav input.input {
+    border-radius: 50px;
+    border: none;
+    background: #eee;
+    padding: 20px;
+}
+
+.control.has-icons-left .icon, .control.has-icons-right .icon {
+    top: 5px;
+}
+
+div.search-nav input.input::placeholder {
+    color: #000;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* TYPOGRAPHY */
+
+h1.title,
+h2.title,
+h3.title,
+h4.title,
+h5.title,
+h6.title,
+.content h1.title,
+.content h2.title,
+.content h3.title,
+.content h4.title
+.content h5.title
+.content h6.title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.is-7 {
+    font-size: 12px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+body a,
+body li,
+body strong,
+body small
+body time,
+body p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+}
+
+.head {
+    font-family: 'Playfair Display', serif;
+}
+
+.head.is-4 {
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+
+/* HERO */
+
+
+h1.title.hero-title {
+    font-family: 'Playfair Display', serif;
+    color: #0E283F;
+    font-size: 5em;
+}
+
+
+a.hero-btn {
+    background-image: linear-gradient(to right, #b28ae6 0%, #7FD7EF 51%, #8c51d8 100%);
+    margin: 10px 0px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .2s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 7px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+/* PRODUCT */
+.thumbnail__image {
+	transition: all .5s ease;
+	height: 35vh
+}
+.thumbnail__image:hover {
+	transform: scale(1.1);
+	overflow: hidden;
+	transition: all .5s ease
+}
+
+.thumbnail__container {
+    overflow: hidden!important;
+    position: relative;
+}
+
+.sale-tag {
+    background: #AC72C4;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0px 20px;
+    top: 0;
+    font-size: 14px;
+    margin: 5px;
+    position: absolute;
+}
+
+
+div.line {
+    width: 100px;
+    height: 3px;
+    background: #aa6cc1;
+    display: flex;
+    align-items: center;
+}
+
+
+/* SNIPCART */
+
+.snipcart-modal__container.snipcart-cart-summary--edit.snipcart-cart-summary-side,
+.snipcart-modal__container.snipcart-layout--large,
+.snipcart-modal__container {
+    z-index: 100;
+}
+
+button.snipcart-cart-button--highlight,
+.snipcart__box--badge-highlight {
+    background: #f5a8cd;
+}
+
+.snipcart__icon--blue-light path,
+.snipcart__icon--blue-dark path {
+    fill: #f5a8cd;
+}
+
+.snipcart__actions--link,
+.snipcart-signin__register-link,
+.snipcart-signin__forgot-password {
+    color: #f5a8cd;
+}

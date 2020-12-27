@@ -1,0 +1,95 @@
+  
+{{ $footer := .Site.Data.profile }}
+{{ $footerSocial := .Site.Data.profile.social_media }}
+<footer class="footer pb-0">
+    <div class="section">
+        <div class="container">
+            <div class="columns is-variable is-8">
+                <div class="column">
+                    <img src="/uploads/corwinklogo.png" alt="" width="200">
+                    <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio placeat ipsum doloremque! Voluptatum temporibus ullam mollitia officia</p>
+                    <p><a href="" class="has-text-black">corwinkcosmetics@gmail.com</a></p>
+                    <ul>
+                        {{ if $footerSocial.facebook }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.facebook }}" target="_blank" class="has-text-black">Facebook</a></li>{{ end }}
+                        {{ if $footerSocial.instagram }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.instagram }}" target="_blank" class="has-text-black">Instagram</a></li>{{ end }}
+                        {{ if $footerSocial.twitter }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.twitter }}" target="_blank" class="has-text-black">Twitter</a></li>{{ end }}
+                        {{ if $footerSocial.pinterest }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.pinterest }}" target="_blank" class="has-text-black">Pinterest</a></li>{{ end }}
+                        {{ if $footerSocial.youtube }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.youtube }}" target="_blank" class="has-text-black">Youtube</a></li>{{ end }}
+                        {{ if $footerSocial.linkedin }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.linkedin }}" target="_blank" class="has-text-black">Linkedin</a></li>{{ end }}
+                        {{ if $footerSocial.yelp }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.yelp }}" target="_blank" class="has-text-black">Yelp</a></li>{{ end }}
+                        {{ if $footerSocial.tiktok }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.tiktok }}" target="_blank" class="has-text-black">TikTok</a></li>{{ end }}
+
+                      </ul>
+                </div>
+                <div class="column">
+                    <h4 class="title is-6">SHOP</h4>
+                    <ul>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">Liners</a></li>
+                        <li><a href="">UV Pastel</a></li>
+                        <li><a href="">Lashes</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4 class="title is-6">ACCOUNT</h4>
+                    <ul>
+                        <li><a href="">My Account</a></li>
+                        <li><a href="">Shopping Cart</a></li>
+                        <li><a href="">Feedback</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="level pt-6">
+                <div class="level-left">
+                    <div class="level-item">
+                        <div>
+                            <p class="is-size-7 has-text-centered-mobile">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }}  &middot; <a href="https://hungryram.com" target="_blank" class="is-size-7 has-text-black">Website Developed by Hungry Ram</a></p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="level-right">
+                    <div class="level-item has-text-centered-mobile">
+                        <div>
+                            <ul>
+                                {{ range where $.Site.Pages.ByWeight "Type" "legal" }}
+                                <li class="is-inline"><a href="{{ .Permalink }}" class="is-size-7 mx-2 has-text-black">{{ .Title }}</a></li>
+                                {{ end }}
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
+<script src="{{.Site.BaseURL}}/js/main.js"></script>
+<script src="{{.Site.BaseURL}}/js/lax.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+<script src="{{ "js/search.js" | absURL }}"></script>
+<script async src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
+<div id="snipcart" data-config-modal-style="side" data-api-key="YmU4MzgzZDQtNDg4Ny00YzkzLTlhM2MtNTE1N2UzNTUyMzdmNjM3MzA0NzQwMTA0MzQyOTA0" hidden></div>
+<script>
+    window.onload = function() {
+      lax.setup() // init
+    
+      const updateLax = () => {
+        lax.update(window.scrollY)
+        window.requestAnimationFrame(updateLax)
+      }
+    
+      window.requestAnimationFrame(updateLax)
+
+      lax.setup({
+        breakpoints: { small: 0, large: 992 }
+    })
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+[[menu.main]]
+name = "Shop"
+weight = 5
+url = "/shop"
+[[menu.main]]
+name = "Tutorials"
+url = "/categories/tutorial"
+weight = 4
+[[menu.main]]
+name = "Videos"
+weight = 3
+url = "/videos"
+[[menu.main]]
+name = "Contact"
+weight = 8
+url = "/contact"
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1

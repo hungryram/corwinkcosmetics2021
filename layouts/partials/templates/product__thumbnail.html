@@ -1,0 +1,17 @@
+<div class="thumbnail__product">
+    <a href="{{ .Permalink }}">
+        <div class="thumbnail__container">
+            <div class="thumbnail__image" style="background:url({{ with .Params.gallery }}{{ index . 0 }}{{ end }}) no-repeat center;background-size:cover;"></div>
+            {{ if .Params.on_sale }}<span class="sale-tag">Sale</span>{{ end }}
+        </div>
+    </a>
+    <div class="columns is-desktop thumbnail__details mb-1 pb-1">
+        <div class="column is-8">
+            <div class="product__title has-text-left-desktop has-text-centered-mobile">
+                <h1 class="title is-6 mt-4 mb-0">{{ .Title }}</h1>
+                <p class="has-text-left-mobile has-text-left-desktop is-size-6">{{ if .Params.on_sale }} <span class="sale-price">${{ lang.NumFmt 2 .Params.price }} </span>${{ lang.NumFmt 2 .Params.sale_price }}{{ else }}${{ lang.NumFmt 2 .Params.price }}{{ end }}</p>
+            </div>
+        </div>
+    </div>
+
+</div>   
