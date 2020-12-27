@@ -3,7 +3,7 @@ languageCode = "en-us"
 [[menu.main]]
 name = "Shop"
 weight = 5
-url = "/shop"
+url = "/products"
 [[menu.main]]
 name = "Tutorials"
 url = "/categories/tutorial"

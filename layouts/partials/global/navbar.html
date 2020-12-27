@@ -43,14 +43,16 @@
               {{ end }}
               {{ end }} <!-- End range menu -->
               <div class="navbar-item">
-                <div class="field search-nav">
-                  <div class="control has-icons-right">
-                    <input class="input is-small" type="text" placeholder="Search">
-                    <span class="icon is-small is-right">
-                      <img src="/assets/search.svg" alt="" width="15">
-                    </span>
+                <form action="{{ "search" | absURL }}">
+                  <div class="field search-nav">
+                    <div class="control has-icons-right">
+                      <input id="search-query" name="s" class="input is-small" type="text" placeholder="Search">
+                      <span class="icon is-small is-right">
+                        <img src="/assets/search.svg" alt="" width="15">
+                      </span>
+                    </div>
                   </div>
-                </div>
+                </form>
               </div>
               <div class="navbar-item">
                 <div class="buttons">
