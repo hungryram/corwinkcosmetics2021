@@ -47,8 +47,8 @@ sections:
   match: "**/*"
   templates:
   - blog
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: corinne-renteria/corwinkcosmetics
+public_path: https://res.cloudinary.com/hungryram19/image/upload
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
