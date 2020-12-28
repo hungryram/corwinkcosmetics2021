@@ -1,7 +1,7 @@
 +++
 collections = []
 eyeliners = ["Lash Liners", "Magic Liners"]
-gallery = ["/uploads/magic1.jpg", "/uploads/blue-pen-1.jpeg", "/uploads/purple-pen-1.jpeg", "/uploads/blue-purple-pen-1.jpeg"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121741/corinne-renteria/corwinkcosmetics/magic1_xh74zg.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121755/corinne-renteria/corwinkcosmetics/blue-purple-pen-1_wag5ef.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121747/corinne-renteria/corwinkcosmetics/purple-pen-1_wuykuk.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121755/corinne-renteria/corwinkcosmetics/blue-pen-1_k90913.jpg"]
 lash-materials = []
 lash-types = []
 on_sale = true
