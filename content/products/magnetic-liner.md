@@ -2,7 +2,7 @@
 collections = []
 customOptions = []
 eyeliners = ["Magnetic Liners"]
-gallery = ["/uploads/img_1278.JPG", "/uploads/magnetic-liner.JPG", "/uploads/img_1272.JPG"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121740/corinne-renteria/corwinkcosmetics/magnetic-liner_f0lg6w.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121739/corinne-renteria/corwinkcosmetics/img_1272_caxoqd.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121739/corinne-renteria/corwinkcosmetics/img_1278_vxra6p.jpg"]
 lash-materials = []
 lash-types = []
 on_sale = true
