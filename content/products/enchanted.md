@@ -2,12 +2,12 @@
 collections = ["FairyWink Collection"]
 customOptions = []
 eyeliners = []
-gallery = ["/uploads/img_1058.JPG", "/uploads/img_1065.JPG", "/uploads/img_1084.JPG", "/uploads/img_1090.JPG", "/uploads/img_1086.JPG", "/uploads/img_1096.JPG", "/uploads/img_1091.JPG", "/uploads/img_1096-2.JPG", "/uploads/img_1102.JPG"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121737/corinne-renteria/corwinkcosmetics/img_1058_r1lwlu.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121737/corinne-renteria/corwinkcosmetics/img_1102_buj1rl.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121737/corinne-renteria/corwinkcosmetics/img_1096_rhcuzd.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121737/corinne-renteria/corwinkcosmetics/img_1096-2_ojgzfn.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121737/corinne-renteria/corwinkcosmetics/img_1086_aqxgsm.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121737/corinne-renteria/corwinkcosmetics/img_1090_zfq9vi.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121737/corinne-renteria/corwinkcosmetics/img_1084_tsdnox.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121737/corinne-renteria/corwinkcosmetics/img_1065_afjizl.jpg"]
 lash-materials = ["Real Siberian Mink"]
 lash-types = ["Magnetic Lashes"]
 on_sale = true
 price = 14.99
-sale_price = 12.0
+sale_price = 12
 sku = "019"
 title = "Enchanted"
 url = ""
