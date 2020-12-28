@@ -2,7 +2,7 @@
 collections = []
 customOptions = []
 eyeliners = ["UV Neon Pastel Liners"]
-gallery = ["/uploads/teal-1.jpeg", "/uploads/teal-2.jpeg", "/uploads/teal-3.jpeg"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121749/corinne-renteria/corwinkcosmetics/teal-1_qopwxc.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121749/corinne-renteria/corwinkcosmetics/teal-2_vxz2w9.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121749/corinne-renteria/corwinkcosmetics/teal-3_d3wca7.jpg"]
 lash-materials = []
 lash-types = []
 on_sale = true
