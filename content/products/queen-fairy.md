@@ -2,12 +2,12 @@
 collections = ["FairyWink Collection"]
 customOptions = []
 eyeliners = []
-gallery = ["/uploads/img_1009.JPG", "/uploads/img_1020.JPG", "/uploads/img_1039.JPG", "/uploads/img_1049.JPG", "/uploads/img_1042.JPG", "/uploads/img_1053.JPG"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121736/corinne-renteria/corwinkcosmetics/img_1053_bh8ams.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121736/corinne-renteria/corwinkcosmetics/img_1042_z1mnwj.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121736/corinne-renteria/corwinkcosmetics/img_1049_swrrjb.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121736/corinne-renteria/corwinkcosmetics/img_1039_x7ugdo.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121736/corinne-renteria/corwinkcosmetics/img_1020_hs6jws.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121736/corinne-renteria/corwinkcosmetics/img_1009_ry5ffs.jpg"]
 lash-materials = ["Real Siberian Mink"]
 lash-types = ["Magnetic Lashes"]
 on_sale = true
 price = 14.99
-sale_price = 12.0
+sale_price = 12
 sku = "018"
 title = "Queen Fairy"
 url = ""
