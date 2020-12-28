@@ -1,7 +1,7 @@
 +++
 collections = []
 eyeliners = []
-gallery = ["/uploads/img_1427.jpeg", "/uploads/img_1401.jpeg", "/uploads/img_1412.jpeg", "/uploads/img_1405.jpeg"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121739/corinne-renteria/corwinkcosmetics/img_1427_npl98u.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121739/corinne-renteria/corwinkcosmetics/img_1412_t4ijci.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121739/corinne-renteria/corwinkcosmetics/img_1405_ojhdyb.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121739/corinne-renteria/corwinkcosmetics/img_1401_tpipzk.jpg"]
 lash-materials = []
 lash-types = []
 on_sale = false
