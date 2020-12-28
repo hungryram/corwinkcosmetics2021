@@ -8,12 +8,12 @@ home_slideshow:
   - https://res.cloudinary.com/hungryram19/image/upload/v1609126434/corinne-renteria/corwinkcosmetics/background9_dzbt1e.jpg
   slideshow_title: "**Luxury** at an Affordable Price"
   slideshow_subtitle: Luxury Lashes by Corwink
-  image: ''
-  hero_subtitle: ''
-  hero_title: ''
-  button_text: ''
-  button_link: ''
-  body: ''
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1609126434/corinne-renteria/corwinkcosmetics/background9_dzbt1e.jpg
+  hero_subtitle: Corwink Cosmetics
+  hero_title: Winter Wink Collections
+  button_text: Shop the Classics
+  button_link: "/products"
+  body: With Corwink Cosmetics you should always feel beautiful
 colors:
   enable_black_menu_items: true
   header_background_color: "#FFFFFF"
@@ -57,4 +57,5 @@ home_layout:
       heading: Lash Liners
       image: https://res.cloudinary.com/hungryram19/image/upload/v1609121755/corinne-renteria/corwinkcosmetics/blue-purple-pen-1_wag5ef.jpg
   introduction:
-    body: ''
+    body: Our mission is to keep the highest quality of luxury lashes you love at
+      an affordable price while providing unique options that fit your lash needs.
