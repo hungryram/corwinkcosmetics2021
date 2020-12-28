@@ -37,13 +37,9 @@ fields:
       required: false
     label: Hero Subtitle
   - name: hero_title
-    type: textarea
-    default: ''
+    type: text
     config:
       required: false
-      wysiwyg: true
-      schema:
-        format: markdown
     label: Hero Title
   - name: button_text
     type: text
@@ -64,7 +60,7 @@ fields:
       schema:
         format: markdown
     label: Body
-  label: Home Slideshow
+  label: Home Hero
 - name: home_layout
   type: field_group
   config: {}
