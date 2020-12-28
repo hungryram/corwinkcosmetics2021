@@ -8,6 +8,12 @@ home_slideshow:
   - https://res.cloudinary.com/hungryram19/image/upload/v1609126434/corinne-renteria/corwinkcosmetics/background9_dzbt1e.jpg
   slideshow_title: "**Luxury** at an Affordable Price"
   slideshow_subtitle: Luxury Lashes by Corwink
+  image: ''
+  hero_subtitle: ''
+  hero_title: ''
+  button_text: ''
+  button_link: ''
+  body: ''
 colors:
   enable_black_menu_items: true
   header_background_color: "#FFFFFF"
@@ -40,3 +46,15 @@ home_section_text:
     subtitle: Learn More About Your Favorite Lashes
     heading: Latest News
     body_text: ''
+home_layout:
+  featured:
+    featured_one:
+      heading: CorWink Classics
+      link: "/collections/corwink-classics/"
+      image: https://res.cloudinary.com/hungryram19/image/upload/v1609127756/corinne-renteria/corwinkcosmetics/lashes_kjclzi.jpg
+    featured_two:
+      link: "/eyeliners/"
+      heading: Lash Liners
+      image: https://res.cloudinary.com/hungryram19/image/upload/v1609121755/corinne-renteria/corwinkcosmetics/blue-purple-pen-1_wag5ef.jpg
+  introduction:
+    body: ''
