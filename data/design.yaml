@@ -1,11 +1,11 @@
 ---
 logo_and_title:
-  logo: "/uploads/corwinklogo.png"
+  logo: https://res.cloudinary.com/hungryram19/image/upload/v1609121733/corinne-renteria/corwinkcosmetics/corwinklogo_aulh2x.png
   company_title: Corwink
-  favicon: "/uploads/favicon.png"
+  favicon: https://res.cloudinary.com/hungryram19/image/upload/v1609126473/corinne-renteria/corwinkcosmetics/favicon_glluyh.png
 home_slideshow:
   slideshow:
-  - "/uploads/splash2020.jpg"
+  - https://res.cloudinary.com/hungryram19/image/upload/v1609126434/corinne-renteria/corwinkcosmetics/background9_dzbt1e.jpg
   slideshow_title: "**Luxury** at an Affordable Price"
   slideshow_subtitle: Luxury Lashes by Corwink
 colors:
