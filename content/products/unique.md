@@ -2,7 +2,7 @@
 collections = ["Corwink Classics"]
 customOptions = []
 eyeliners = []
-gallery = ["/uploads/unique-stock-photo.JPG", "/uploads/unique-2.JPG", "/uploads/unique-1.JPG", "/uploads/unique-3.JPG"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121749/corinne-renteria/corwinkcosmetics/unique-stock-photo_cgwbc8.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121749/corinne-renteria/corwinkcosmetics/unique-1_tkd8nf.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121749/corinne-renteria/corwinkcosmetics/unique-3_kxmx7k.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121749/corinne-renteria/corwinkcosmetics/unique-2_tay6pk.jpg"]
 lash-materials = ["Real Siberian Mink"]
 lash-types = ["Strip Lashes"]
 on_sale = true
