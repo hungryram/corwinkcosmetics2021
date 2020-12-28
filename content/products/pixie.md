@@ -2,7 +2,7 @@
 collections = ["FairyWink Collection"]
 customOptions = []
 eyeliners = []
-gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1198_fbof0s.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1197_btawzu.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1158_onxpjl.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1172_u61uqd.jpg"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1158_onxpjl.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1198_fbof0s.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1197_btawzu.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1172_u61uqd.jpg"]
 lash-materials = ["Real Siberian Mink"]
 lash-types = ["Magnetic Lashes"]
 on_sale = true
