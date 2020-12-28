@@ -5,9 +5,9 @@
     <div class="section">
         <div class="container">
             <div class="columns is-variable is-8">
-                <div class="column">
-                    <img src="/uploads/corwinklogo.png" alt="" width="200">
-                    <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio placeat ipsum doloremque! Voluptatum temporibus ullam mollitia officia</p>
+                <div class="column content">
+                    <img src="{{ $.Site.Data.design.footer.footer_logo }}" alt="" width="200">
+                    <p class="mb-4">{{ $.Site.Data.design.footer.footer_bio }}</p>
                     <p><a href="" class="has-text-black">corwinkcosmetics@gmail.com</a></p>
                     <ul>
                         {{ if $footerSocial.facebook }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.facebook }}" target="_blank" class="has-text-black">Facebook</a></li>{{ end }}
@@ -24,19 +24,19 @@
                 <div class="column">
                     <h4 class="title is-6">SHOP</h4>
                     <ul>
-                        <li><a href="">Shop</a></li>
-                        <li><a href="">Liners</a></li>
-                        <li><a href="">UV Pastel</a></li>
-                        <li><a href="">Lashes</a></li>
+                        <li><a href="" class="has-text-black">Shop</a></li>
+                        <li><a href="" class="has-text-black">Liners</a></li>
+                        <li><a href="" class="has-text-black">UV Pastel</a></li>
+                        <li><a href="" class="has-text-black">Lashes</a></li>
                     </ul>
                 </div>
                 <div class="column">
                     <h4 class="title is-6">ACCOUNT</h4>
                     <ul>
-                        <li><a href="">My Account</a></li>
-                        <li><a href="">Shopping Cart</a></li>
-                        <li><a href="">Feedback</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="" class="has-text-black">My Account</a></li>
+                        <li><a href="" class="has-text-black">Shopping Cart</a></li>
+                        <li><a href="" class="has-text-black">Feedback</a></li>
+                        <li><a href="/contact" class="has-text-black">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -69,6 +69,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
 <script src="{{.Site.BaseURL}}/js/main.js"></script>
 <script src="{{.Site.BaseURL}}/js/lax.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>

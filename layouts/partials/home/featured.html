@@ -1,17 +1,19 @@
+{{ $featuredOne := .Site.Data.design.home_layout.featured.featured_one }}
+{{ $featuredTwo := .Site.Data.design.home_layout.featured.featured_two }}
 <div class="section">
     <div class="container">
         <div class="columns is-variable is-4">
             <div class="column is-8">
-                <a href="">
-                    <div style="background:url(/uploads/lashes.jpg) no-repeat center;background-size:cover;height:250px">
-                        <h3 class="title is-4 pt-4 pl-6 has-text-weight-normal">Lashes</h3>
+                <a href="{{ $featuredOne.link }}">
+                    <div style="background:url({{ $featuredOne.image }}) no-repeat center;background-size:cover;height:250px">
+                        <h3 class="title is-4 pt-4 pl-6 has-text-weight-normal">{{ $featuredOne.heading }}</h3>
                     </div>
                 </a>
             </div>
             <div class="column">
-                <a href="">
-                    <div style="background:url(/uploads/blue-purple-pen-1.jpeg) no-repeat center;background-size:cover;height:250px">
-                        <h3 class="title is-4 pt-4 pl-6 has-text-weight-normal">Liners</h3>
+                <a href="{{ $featuredTwo.link }}">
+                    <div style="background:url({{ $featuredTwo.image }}) no-repeat center;background-size:cover;height:250px">
+                        <h3 class="title is-4 pt-4 pl-6 has-text-weight-normal">{{ $featuredTwo.heading }}</h3>
                     </div>  
                 </a>
             </div>

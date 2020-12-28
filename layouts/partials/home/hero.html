@@ -1,4 +1,5 @@
-<section class="hero is-fullheight" style="background:url(uploads/background9.jpg) no-repeat center;background-size:cover;position:relative">
+{{ $hero := .Site.Data.design.home_slideshow }}
+<section class="hero is-fullheight" style="background:url({{ index .Site.Data.design.home_slideshow.slideshow 0 }}) no-repeat center;background-size:cover;position:relative">
 {{ partial "global/navbar" . }}
   
     <!-- Hero content: will be in the middle -->
@@ -6,15 +7,15 @@
       <div class="container has-text-left">
         <div class="columns is-variable is-0">
             <div class="column is-7">
-                <h4 class="title is-5">Corwink Cosmetics</h4>
+                <h4 class="title is-5">{{ $hero.hero_subtitle }}</h4>
                 <h1 class="title hero-title mb-6">
-                    Winter Wink Collections
+                  {{- $hero.hero_title -}}
                   </h1>
                   <h2 class="subtitle mt-3">
-                    With Corwink Cosmetics you should always feel beautiful
+                    {{- $hero.body | markdownify -}}
                   </h2>
                   <div class="is-block">
-                      <a href="" class="hero-btn">Shop Collections</a>
+                      <a href="{{ $hero.button_link }}" class="hero-btn">{{ $hero.button_text }}</a>
                   </div>
             </div>
             <div class="column">

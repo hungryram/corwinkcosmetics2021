@@ -1,5 +1,9 @@
 /* NAVBAR */
 
+div.top-bar {
+    background :#ac94e8;
+}
+
 .navbar-item img {
     max-height: 3.75rem;
 }
@@ -154,7 +158,7 @@ a.hero-btn {
 }
 
 .sale-tag {
-    background: #AC72C4;
+    background: #ac94e8;
     border-radius: 5px;
     color: #fff;
     padding: 0px 20px;
@@ -218,6 +222,7 @@ select.selectVar {
     width: 100%;
     border-color: #dfdfdf;
 }
+
 /* INCREMENT ARROW */
 input[type="number"],
 select,

@@ -13,6 +13,7 @@ $('.product-slide').slick({
         speed: 1000,
         slidesToShow: 4,
         slidesToScroll: 4,
+        arrows: false,
         responsive: [
           {
             breakpoint: 1024,
@@ -42,3 +43,10 @@ $('.product-slide').slick({
           // instead of a settings object
         ]
       });
+
+    $( function() {
+      $( "#accordion" ).accordion({
+        active: false,
+        collapsible: true,
+      });
+    });

@@ -5,13 +5,13 @@ name = "Shop"
 weight = 5
 url = "/products"
 [[menu.main]]
-name = "Tutorials"
-url = "/categories/tutorial"
+name = "Blog"
+url = "/blog"
 weight = 4
 [[menu.main]]
-name = "Videos"
+name = "FAQ"
 weight = 3
-url = "/videos"
+url = "/faq"
 [[menu.main]]
 name = "Contact"
 weight = 8
