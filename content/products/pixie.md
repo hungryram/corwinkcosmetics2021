@@ -2,12 +2,12 @@
 collections = ["FairyWink Collection"]
 customOptions = []
 eyeliners = []
-gallery = ["/uploads/img_1158.JPG", "/uploads/img_1172.JPG", "/uploads/img_1197.JPG", "/uploads/img_1176.JPG", "/uploads/img_1198.JPG"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1198_fbof0s.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1197_btawzu.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1158_onxpjl.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1172_u61uqd.jpg"]
 lash-materials = ["Real Siberian Mink"]
 lash-types = ["Magnetic Lashes"]
 on_sale = true
 price = 14.99
-sale_price = 12.0
+sale_price = 12
 sku = "021"
 title = "Pixie"
 url = ""
