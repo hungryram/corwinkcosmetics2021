@@ -26,11 +26,17 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: slideshow
-    type: image_gallery
-    config: {}
-    label: Slideshow
-  - name: slideshow_title
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: hero_subtitle
+    type: text
+    config:
+      required: false
+    label: Hero Subtitle
+  - name: hero_title
     type: textarea
     default: ''
     config:
@@ -38,33 +44,91 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-    label: Slide Show Title
-  - name: slideshow_subtitle
+    label: Hero Title
+  - name: button_text
     type: text
     config:
       required: false
-    label: Slideshow Subtitle
+    label: Button Text
+  - name: button_link
+    type: text
+    config:
+      required: false
+    label: Button Link
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Body
   label: Home Slideshow
-- name: colors
+- name: home_layout
   type: field_group
   config: {}
   fields:
-  - name: enable_black_menu_items
-    type: boolean
-    label: Enable Black menu Items
-  - name: header_background_color
-    type: color
-    label: Header Background Color
-    config:
-      required: false
-      color_format: Hex
-  - name: page_background
-    type: color
-    label: Page Title Background
-    config:
-      required: false
-      color_format: Hex
-  label: Colors
+  - name: introduction
+    type: field_group
+    config: {}
+    fields:
+    - name: body
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Body
+    label: Introduction
+  - name: featured
+    type: field_group
+    config: {}
+    fields:
+    - name: featured_one
+      type: field_group
+      config: {}
+      fields:
+      - name: heading
+        type: text
+        config:
+          required: false
+        label: Heading
+      - name: link
+        type: text
+        config:
+          required: false
+        label: Link
+      - name: image
+        type: file
+        config:
+          maxSize: 64
+        label: Image
+      label: Featured One
+    - name: featured_two
+      type: field_group
+      config: {}
+      fields:
+      - name: heading
+        type: text
+        config:
+          required: false
+        label: Heading
+      - name: link
+        type: text
+        config:
+          required: false
+        label: Link
+      - name: image
+        type: file
+        config:
+          maxSize: 64
+        label: Image
+      label: Featured Two
+    label: Featured
+  label: Home Layout
 - name: footer
   type: field_group
   config: {}
@@ -74,15 +138,6 @@ fields:
     config:
       maxSize: 64
     label: Footer Logo
-  - name: enable_black_text
-    type: boolean
-    label: Enable Black Text
-  - name: footer_background_color
-    type: color
-    config:
-      required: false
-      color_format: Hex
-    label: Footer Background Color
   - name: footer_bio
     type: textarea
     default: ''
@@ -93,82 +148,5 @@ fields:
         format: markdown
     label: Footer Bio
   label: Footer
-- name: home_section_text
-  type: field_group
-  config: {}
-  fields:
-  - name: home_inrto_section
-    type: field_group
-    config: {}
-    fields:
-    - name: subtitle
-      type: text
-      config:
-        required: false
-      label: Subtitle
-    - name: heading
-      type: text
-      config:
-        required: false
-      label: Heading
-    - name: body_text
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: true
-        schema:
-          format: markdown
-      label: Body Text
-    label: Home Inrto Section
-  - name: second_intro
-    type: field_group
-    config: {}
-    fields:
-    - name: subtitle
-      type: text
-      config:
-        required: false
-      label: Subtitle
-    - name: heading
-      type: text
-      config:
-        required: false
-      label: Heading
-    - name: body_text
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: true
-        schema:
-          format: markdown
-      label: Body Text
-    label: Second Intro
-  - name: blog
-    type: field_group
-    config: {}
-    fields:
-    - name: subtitle
-      type: text
-      config:
-        required: false
-      label: Subtitle
-    - name: heading
-      type: text
-      config:
-        required: false
-      label: Heading
-    - name: body_text
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: true
-        schema:
-          format: markdown
-      label: Body Text
-    label: Blog
-  label: Home Section Text
 pages:
 - data/design.yaml
