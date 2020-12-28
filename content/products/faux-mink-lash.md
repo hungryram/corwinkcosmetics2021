@@ -2,7 +2,7 @@
 collections = ["Corwink Classics"]
 customOptions = []
 eyeliners = []
-gallery = ["/uploads/divine-3.JPG", "/uploads/divine-5.JPG", "/uploads/divine-1.JPG", "/uploads/divine-2.JPG", "/uploads/divine-lash.png"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121736/corinne-renteria/corwinkcosmetics/divine-3_yerq77.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121735/corinne-renteria/corwinkcosmetics/divine-1_kfr1sp.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121735/corinne-renteria/corwinkcosmetics/divine-2_z97owp.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121736/corinne-renteria/corwinkcosmetics/divine-5_pukw2u.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121737/corinne-renteria/corwinkcosmetics/divine-lash_ao1kty.png"]
 lash-materials = ["Vegan-Faux Mink"]
 lash-types = ["Strip Lashes"]
 on_sale = true
