@@ -24,5 +24,3 @@ fields:
     max: 
     labelField: 
   label: FAQ
-pages:
-- content/faq/_index.md

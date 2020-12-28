@@ -14,6 +14,8 @@ sections:
   label: Products
   create: all
   match: "**/*"
+  templates:
+  - products
 - type: directory
   path: content/contact
   label: Contact

@@ -170,5 +170,3 @@ fields:
       label: Body Text
     label: Blog
   label: Home Section Text
-pages:
-- data/design.yaml
