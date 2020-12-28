@@ -10,13 +10,11 @@ var fuseOptions = {
   minMatchCharLength: 1,
   keys: [
     {name:"title",weight:0.8},
-    {name:"contents",weight:0.5},
     {name:"tags",weight:0.3},
     {name:"categories",weight:0.3},
-    {name:"state",weight:0.3},
-    {name:"city",weight:0.3},
-    {name:"zip",weight:0.3},
-    {name:"mls",weight:0.3},
+    {name:"lash-type",weight:0.3},
+    {name:"lash-material",weight:0.3},
+    {name:"eyeliner",weight:0.3},
     ]
 };
 
@@ -26,7 +24,7 @@ if(searchQuery){
   $("#search-query").val(searchQuery);
   executeSearch(searchQuery);
 }else {
-  $('#search-results').append("<p>Please search by address, zip, state, city, or MLS number</p>");
+  $('#search-results').append("<p>Search the shop</p>");
 }
 
 
@@ -72,7 +70,7 @@ function populateResults(result){
     //pull template from hugo template definition
     var templateDefinition = $('#search-result-template').html();
     //replace values
-    var output = render(templateDefinition,{key:key,title:value.item.title,link:value.item.permalink,status:value.item.status,bed:value.item.bed,tags:value.item.tags,image:value.item.image[0],categories:value.item.categories,price:value.item.price,bath:value.item.bath,square:value.item.square,garage:value.item.garage,featured:value.item.featured,state:value.item.state,city:value.item.city,zip:value.item.zip,mls:value.item.mls,shorttitle:value.item.shorttitle,property:value.item.property,snippet:snippet});
+    var output = render(templateDefinition,{key:key,title:value.item.title,link:value.item.permalink,image:value.item.image[0],categories:value.item.categories,price:value.item.price,sale_price:value.item.sale_price,lash_type:value.item.lash_type,snippet:snippet});
     $('#search-results').append(output);
 
     $.each(snippetHighlights,function(snipkey,snipvalue){

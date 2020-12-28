@@ -20,3 +20,12 @@ url = "/contact"
 name = "Home"
 url = "/"
 weight = 1
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+[taxonomies]
+category = "categories"
+eyeliner = "eyeliners"
+lash-material = "lash-materials"
+lash-type = "lash-types"
+tag = "tags"
+collection = "collections"
