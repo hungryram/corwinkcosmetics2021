@@ -1,0 +1,42 @@
+---
+logo_and_title:
+  logo: "/uploads/corwinklogo.png"
+  company_title: Corwink
+  favicon: "/uploads/favicon.png"
+home_slideshow:
+  slideshow:
+  - "/uploads/splash2020.jpg"
+  slideshow_title: "**Luxury** at an Affordable Price"
+  slideshow_subtitle: Luxury Lashes by Corwink
+colors:
+  enable_black_menu_items: true
+  header_background_color: "#FFFFFF"
+  page_background: "#F6F6F6"
+footer:
+  footer_background_color: "#000000"
+  enable_black_text: false
+  footer_logo: "/uploads/whitelogo.png"
+  footer_bio: Our mission is to keep the highest quality of luxury lashes you love
+    at an affordable price while providing unique options that fit your lash needs.
+banner:
+  banner_image: "/uploads/banner4.jpg"
+home_section_text:
+  home_inrto_section:
+    subtitle: Welcome
+    heading: Our Mission
+    body_text: Our mission is to keep the highest quality of luxury lashes you love
+      at an affordable price while providing unique options that fit your lash needs.
+  second_intro:
+    subtitle: ''
+    heading: Why CorWink Cosmetics?
+    body_text: |-
+      * 100% Affordable Handmade Luxury Lashes
+      * 100% Cruelty-Free
+      * 100% Real Siberian Mink Options
+      * 100% Vegan-Faux Mink Options
+      * Unique Applications Available
+      * Soft Band & Very Light Weight
+  blog:
+    subtitle: Learn More About Your Favorite Lashes
+    heading: Latest News
+    body_text: ''
