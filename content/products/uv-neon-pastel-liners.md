@@ -2,12 +2,12 @@
 collections = []
 customOptions = []
 eyeliners = ["UV Neon Pastel Liners"]
-gallery = ["/uploads/group-8.jpeg", "/uploads/groups1.jpeg", "/uploads/group-1.jpeg", "/uploads/groups.jpeg", "/uploads/groups-3.jpeg", "/uploads/group-7.jpeg", "/uploads/group-5.jpeg", "/uploads/group-4.jpeg", "/uploads/group-3.jpeg", "/uploads/group-2.jpeg"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121731/corinne-renteria/corwinkcosmetics/group-2_kckubm.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121731/corinne-renteria/corwinkcosmetics/group-1_dq7ger.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121731/corinne-renteria/corwinkcosmetics/group-3_cpxt8s.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121731/corinne-renteria/corwinkcosmetics/group-4_rlturi.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121731/corinne-renteria/corwinkcosmetics/group-5_ddl50n.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121731/corinne-renteria/corwinkcosmetics/group-7_pn74id.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121732/corinne-renteria/corwinkcosmetics/group-8_izinh6.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121732/corinne-renteria/corwinkcosmetics/groups_uggvwe.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121734/corinne-renteria/corwinkcosmetics/groups-3_gmjeyp.jpg"]
 lash-materials = []
 lash-types = []
 on_sale = true
 price = 31.99
-sale_price = 24.0
+sale_price = 24
 sku = "014"
 title = "UV Neon Pastel Liners"
 url = ""
