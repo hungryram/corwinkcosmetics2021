@@ -2,12 +2,12 @@
 collections = ["FairyWink Collection"]
 customOptions = []
 eyeliners = []
-gallery = ["/uploads/img_1111.JPG", "/uploads/img_1147.JPG", "/uploads/img_1130.JPG", "/uploads/img_1132.JPG", "/uploads/img_1133.JPG", "/uploads/img_1135.JPG", "/uploads/img_1138.JPG"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1138_qyeycw.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1133_zsvbp9.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1135_m8hxqq.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1132_vdriqz.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121737/corinne-renteria/corwinkcosmetics/img_1130_ez6hqg.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1147_sdvngw.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121737/corinne-renteria/corwinkcosmetics/img_1111_m3k9b5.jpg"]
 lash-materials = ["Real Siberian Mink"]
 lash-types = ["Magnetic Lashes"]
 on_sale = true
 price = 14.99
-sale_price = 12.0
+sale_price = 12
 sku = "020"
 title = "Starlight"
 url = ""
