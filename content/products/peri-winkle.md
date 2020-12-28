@@ -2,7 +2,7 @@
 collections = ["FairyWink Collection"]
 customOptions = []
 eyeliners = []
-gallery = ["/uploads/img_1239.JPG", "/uploads/img_1247.JPG", "/uploads/img_1215.JPG", "/uploads/img_1217.JPG", "/uploads/img_1227.JPG", "/uploads/img_1224.JPG"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121739/corinne-renteria/corwinkcosmetics/img_1239_wiv0ko.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121739/corinne-renteria/corwinkcosmetics/img_1247_xqhwg7.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121739/corinne-renteria/corwinkcosmetics/img_1224_fj5ocf.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121739/corinne-renteria/corwinkcosmetics/img_1227_hwxhsy.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1217_he3goz.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121738/corinne-renteria/corwinkcosmetics/img_1215_igsz8z.jpg"]
 lash-materials = ["Vegan Faux Mink"]
 lash-types = ["Magnetic Lashes"]
 on_sale = true
