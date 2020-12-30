@@ -2,7 +2,7 @@
 collections = ["Corwink Classics"]
 customOptions = []
 eyeliners = []
-gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121752/corinne-renteria/corwinkcosmetics/baddie-5_vnzx9q.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121751/corinne-renteria/corwinkcosmetics/baddie-2_c0rlw7.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121751/corinne-renteria/corwinkcosmetics/baddie-1_y96oce.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121752/corinne-renteria/corwinkcosmetics/baddie-4_ll8xky.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121752/corinne-renteria/corwinkcosmetics/baddie-3_tdazrh.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121752/corinne-renteria/corwinkcosmetics/baddie-lash_fcwoeg.png"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609372713/corinne-renteria/corwinkcosmetics/baddie-5_cropped_z0smwk.png", "https://res.cloudinary.com/hungryram19/image/upload/v1609121751/corinne-renteria/corwinkcosmetics/baddie-2_c0rlw7.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121751/corinne-renteria/corwinkcosmetics/baddie-1_y96oce.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121752/corinne-renteria/corwinkcosmetics/baddie-4_ll8xky.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121752/corinne-renteria/corwinkcosmetics/baddie-3_tdazrh.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121752/corinne-renteria/corwinkcosmetics/baddie-lash_fcwoeg.png"]
 lash-materials = ["Real Siberian Mink"]
 lash-types = ["Strip Lashes"]
 on_sale = false
