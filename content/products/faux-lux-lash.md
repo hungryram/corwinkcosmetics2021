@@ -2,7 +2,7 @@
 collections = ["Corwink Classics"]
 customOptions = []
 eyeliners = []
-gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121750/corinne-renteria/corwinkcosmetics/virtue-4_zzvdzt.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121750/corinne-renteria/corwinkcosmetics/virtue-1_bgcgcp.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121750/corinne-renteria/corwinkcosmetics/virtue-3_yhn3p9.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121750/corinne-renteria/corwinkcosmetics/virtue-2_rkweqq.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121750/corinne-renteria/corwinkcosmetics/virtue-5_qgb2zq.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121750/corinne-renteria/corwinkcosmetics/virtue-lash_kev6lm.png"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609372623/corinne-renteria/corwinkcosmetics/virtue-4_cropped_qwcruk.png", "https://res.cloudinary.com/hungryram19/image/upload/v1609121750/corinne-renteria/corwinkcosmetics/virtue-1_bgcgcp.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121750/corinne-renteria/corwinkcosmetics/virtue-3_yhn3p9.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121750/corinne-renteria/corwinkcosmetics/virtue-2_rkweqq.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121750/corinne-renteria/corwinkcosmetics/virtue-5_qgb2zq.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121750/corinne-renteria/corwinkcosmetics/virtue-lash_kev6lm.png"]
 lash-materials = ["Real Siberian Mink"]
 lash-types = ["Strip Lashes"]
 on_sale = false
