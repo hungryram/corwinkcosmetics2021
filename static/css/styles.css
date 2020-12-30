@@ -141,6 +141,18 @@ a.hero-btn {
 
 /* PRODUCT */
 
+div.card-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover!important;
+    object-position: center;
+}
+
+.product__title p {
+    font-size: 14px;
+    color: #aa6cc1;
+    font-weight: 500;
+}
 
 .thumbnail__image {
 	transition: all .5s ease;
@@ -288,6 +300,7 @@ select.selectVar {
     text-decoration: line-through;
     font-weight: 400;
     font-size: 14px;
+    color: #111111;
 }
 
 .product_details .columns {
@@ -303,7 +316,7 @@ select.selectVar {
 	z-index: 100;
 	top: 0;
 	left: 0;
-	background-color: #AF70BF;
+	background-color: #ac94e8;
 	overflow-x: hidden;
 	transition: 0.5s;
 	padding-top: 60px;
@@ -316,7 +329,7 @@ select.selectVar {
   }
   
   .sidenav a {
-	padding: 8px 8px 8px 32px;
+	padding: 0px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 14px;
 	color: #fff;
@@ -377,16 +390,16 @@ a.category__item:hover {
 
 button.snipcart-cart-button--highlight,
 .snipcart__box--badge-highlight {
-    background: #f5a8cd;
+    background: #AC94E8;
 }
 
 .snipcart__icon--blue-light path,
 .snipcart__icon--blue-dark path {
-    fill: #f5a8cd;
+    fill: #AC94E8;
 }
 
 .snipcart__actions--link,
 .snipcart-signin__register-link,
 .snipcart-signin__forgot-password {
-    color: #f5a8cd;
+    color: #AC94E8;
 }

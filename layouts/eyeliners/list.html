@@ -29,7 +29,7 @@
           {{ partial "templates/sidebar" . }}
             <div class="column is-9">
                 <div class="columns is-multiline is-desktop is-mobile is-variable is-2">
-                {{ range (where .Pages.ByWeight "Type" "products") }}
+                {{ range .RegularPages }}
                     <div class="column is-4-desktop is-6-mobile">
                         {{ partial "templates/product__thumbnail" . }}
                     </div>

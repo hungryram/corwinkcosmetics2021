@@ -13,13 +13,13 @@
                 {{ $paginator := .Paginate (where .Pages "Type" "blog") 6 }}
                 {{ range $paginator.Pages.ByWeight }}
                     <div class="column is-6">
-                        {{ partial "blog-thumbnail.html" . }}         
+                        {{ partial "templates/blog-thumbnail" . }}         
                     </div>   
                 {{ end }}
                 </div>
-                {{ partial "pagination" . }}
+                {{ partial "templates/pagination" . }}
             </div>
-            {{ partial "blogsidebar.html" . }}
+            {{ partial "templates/blog-sidebar" . }}
 
         </div>
 
