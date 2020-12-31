@@ -43,6 +43,13 @@ div.search-nav input.input::placeholder {
     font-family: 'Roboto', sans-serif;
 }
 
+/* FOOTER */
+
+footer.footer {
+    background: white;
+    border-top: 1px solid #eaeaea;
+}
+
 /* TYPOGRAPHY */
 
 h1.title,
