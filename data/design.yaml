@@ -49,13 +49,21 @@ home_section_text:
 home_layout:
   featured:
     featured_one:
-      heading: CorWink Classics
-      link: "/collections/corwink-classics/"
-      image: https://res.cloudinary.com/hungryram19/image/upload/v1609127756/corinne-renteria/corwinkcosmetics/lashes_kjclzi.jpg
+      heading: Magnetic Lashes
+      link: "/lash-types/magnetic-lashes/"
+      image: https://res.cloudinary.com/hungryram19/image/upload/v1609121750/corinne-renteria/corwinkcosmetics/virtue-lash_kev6lm.png
     featured_two:
-      link: "/eyeliners/"
-      heading: Lash Liners
-      image: https://res.cloudinary.com/hungryram19/image/upload/v1609121755/corinne-renteria/corwinkcosmetics/blue-purple-pen-1_wag5ef.jpg
+      link: "/lash-types/strip-lashes/"
+      heading: Strip Lashes
+      image: https://res.cloudinary.com/hungryram19/image/upload/v1609121749/corinne-renteria/corwinkcosmetics/unique-1_tkd8nf.jpg
+    featured_three:
+      heading: Magic Liners
+      link: "/eyeliners/magic-liners/"
+      image: https://res.cloudinary.com/hungryram19/image/upload/v1609121747/corinne-renteria/corwinkcosmetics/purple-pen-1_wuykuk.jpg
+    featured_four:
+      heading: UV Neon Pastel Liners
+      link: "/eyeliners/uv-neon-pastel-liners/"
+      image: https://res.cloudinary.com/hungryram19/image/upload/v1609121731/corinne-renteria/corwinkcosmetics/group-7_pn74id.jpg
   introduction:
     body: Our mission is to keep the highest quality of luxury lashes you love at
       an affordable price while providing unique options that fit your lash needs.
