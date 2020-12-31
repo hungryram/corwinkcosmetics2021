@@ -1,0 +1,28 @@
+# a collection of user review
+reviews:
+  name: "DEMO: snipcart-jekyll-integration"
+  
+  # we enable moderation, Pull Request will be created for every review
+  moderation: true
+  
+  # they contain a name, a review note, a text message and a field to associate the review to a product
+  allowedFields: ["name", "message", "review", "product"]
+  # message is optional, other fields are required
+  requiredFields: ["name", "review", "product"]
+  # the content will be commited to the gh-pages branche
+  branch: "gh-pages"
+  # Staticman will include the name field in the commit message
+  commitMessage: "Add Review from {fields.name}"
+
+  # filename and format used for the stored data
+  filename: "review-{fields.product}-{@id}"
+  format: "yaml"
+  # folder where reviews will be stored
+  path: "_data/reviews"
+
+  # Staticman can add the submission date for us
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "iso8601"

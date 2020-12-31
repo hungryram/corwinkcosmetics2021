@@ -1,0 +1,16 @@
+<!-- Notice the action url that tells Staticman where to send the POST data -->
+<form method="POST"
+      action="https://api.staticman.net/v2/entry/hungryram/corwinkcosmetics2021/main/reviews"
+      oninput="result.value=parseInt(this['fields[review]'].value)">
+  <!-- The review will be associated with the current product -->
+  <input name="fields[product]" type="hidden" value="{{ .Permalink }}" />
+  <!-- with options[redirect], our visitor will come back to our website when submitting a review -->
+  <input name="options[redirect]" type="hidden" value="{{ .Permalink }}" />
+  
+  <h4>Add a review</h4>
+  <!-- and finally the user visible fields -->
+  <p><label>Your name: <input type="text" name="fields[name]" /></label></p>
+  <p><label>Review: <input type="range" id="fields-review" name="fields[review]" min="0" max="5" step="0.1" value="5" /></label><output for="fields-review" name="result">5</output>/5</p>
+  <p><label>Comment: <input type="text" name="fields[message]" /></label></p>
+  <p><button type="submit">Submit review</button></p>
+</form>
