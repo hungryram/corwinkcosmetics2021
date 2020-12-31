@@ -10,7 +10,14 @@ div.top-bar {
 
 a.navbar-item {
     font-size: 14px;
+    transition: .3s;
     font-weight: 700;
+}
+
+a.navbar-item:hover,
+a.navbar-link:hover{
+    color: #ac94e8;
+    transition: .3s;
 }
 
 a.cart-button {

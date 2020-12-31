@@ -1,19 +1,5 @@
 {{ define "main" }}
-<div class="section" style="background: ;">
-    <div class="container">
-        <div class="columns is-vcentered is-mobile is-variable is-0">
-            <div class="column">
-                <div class="banner-page has-text-centered">
-                    <h1 class="head is-2 has-text-centered">{{ .Title }}</h1>
-                    <div class="has-text-centered">
-                        {{ partial "templates/breadcrumbs" . }}
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <div class="section filter-nav pb-0 pt-0">
     <div class="container">
         <div class="columns">
@@ -29,7 +15,7 @@
           {{ partial "templates/sidebar" . }}
             <div class="column is-9">
                 <div class="columns is-multiline is-desktop is-mobile is-variable is-2">
-                {{ range .RegularPages }}
+                {{ range (where .Pages.ByWeight "Type" "products") }}
                     <div class="column is-4-desktop is-6-mobile">
                         {{ partial "templates/product__thumbnail" . }}
                     </div>
