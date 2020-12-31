@@ -1,7 +1,7 @@
 +++
 categories = ["Tips", "Strip Lash", "How To", "Faux Mink"]
 date = 2020-08-06T07:00:00Z
-featured_image = "/uploads/dirty-lashes-final-1.jpg"
+featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1609121735/corinne-renteria/corwinkcosmetics/dirty-lashes-final_lnnknb.jpg"
 tags = ["Strip Lash", "How to Clean", "Fake Eyelashes", "Faux Mink"]
 title = "How To Clean Your Faux Mink Strip Lashes"
 [search_engine_optimization]
