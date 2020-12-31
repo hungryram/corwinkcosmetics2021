@@ -32,30 +32,45 @@
         </div>
         <div class="column">
           <div class="form-container">
-            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+            <form name="Contact Form" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
               <input name="bot-field" type="hidden"/>
-              <div class="field">
-                <div class="control">
-                  <input class="input" type="text" placeholder="Name" name="name" required>
-                </div>
+              <input name="Subject" type="hidden" value="Website Contact Form"/>
+              <div class="field is-horizontal">
+                  <div class="field-body">
+                      <div class="field">
+                          <p class="control is-expanded">
+                              <input class="input" type="text" placeholder="Name" name="name" required>
+                            </p>
+                      </div>
+                      <div class="field">
+                          <div class="control">
+                            <input class="input" type="text" placeholder="Phone" name="phone" required>
+                          </div>
+                        </div>
+                  </div>
               </div>
+    
               <div class="field">
                 <div class="control">
                   <input class="input" type="email" placeholder="Email" name="email address" required>
                 </div>
               </div>
               <div class="field">
-                  <div class="control">
-                    <input class="input" type="text" placeholder="Subject" name="subject" required>
-                  </div>
-                </div>
-              <div class="field">
                 <div class="control">
                   <textarea class="textarea" placeholder="Your Message" name="message" required></textarea>
                 </div>
               </div>
+
               <div class="control">
-                <button class="button">Submit</button>
+                <button class="button" style="width:100%;">Submit</button>
+              </div>
+              <div class="field mt-5">
+                <div class="control content">
+                  <label class="checkbox">
+                    <input type="checkbox" required>
+                    <span class="is-size-7">By submitting this form you confirm you have read and agreed to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy.</a> You consent to having this website store the submitted information so we can respond to the inquiry. Don't worry, you can request to have your information removed anytime.</span>
+                  </label>
+                </div>
               </div>
             </form>
           </div>

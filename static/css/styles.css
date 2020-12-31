@@ -46,8 +46,15 @@ div.search-nav input.input::placeholder {
 /* FOOTER */
 
 footer.footer {
-    background: white;
-    border-top: 1px solid #eaeaea;
+    background: #AC94E8;
+}
+
+footer.footer p,
+footer.footer ul li,
+footer.footer a,
+footer.footer h4 {
+    color: #fff;
+    font-size: 14px;
 }
 
 /* TYPOGRAPHY */
@@ -124,6 +131,9 @@ body .content p,
 
 /* HERO */
 
+.accent {
+    color: #AC94E8;
+}
 
 h1.title.hero-title {
     font-family: 'Playfair Display', serif;
@@ -131,6 +141,25 @@ h1.title.hero-title {
     font-size: 5em;
 }
 
+button.button {
+    background-image: linear-gradient(to right, #b28ae6 0%, #7FD7EF 51%, #b28ae6 100%);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    transition: .3s;
+}
+
+input[type=submit] {
+    background:#955be2;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button.button:hover {
+    transition: .3s;
+}
 
 a.hero-btn {
     background-image: linear-gradient(to right, #b28ae6 0%, #7FD7EF 51%, #8c51d8 100%);
@@ -324,12 +353,17 @@ select.selectVar {
     color: #111111;
 }
 
-.dots {
-    height: 15px;
-    width: 15px;
-    background: #86cced;
-    margin: 0 auto;
-    border-radius: 50%;
+.page-title:after,
+.page-title:before {
+    content:"";
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: #ac94e8;
+    display:inline-block;
+    position:relative;
+    bottom: 10px;
+    margin: 0 20px;
 }
 
 .product_details .columns {
@@ -413,13 +447,14 @@ a.category__item:hover {
 
 div.form-container {
     background: #f0eaff;
-    padding: 20px;
+    padding: 40px;
+    border-radius: 20px;
 }
 
 input.input,
 textarea.textarea {
     border: 0;
-    border-radius: 0;
+    border-radius: 5px;
 }
 
 /* BLOG */

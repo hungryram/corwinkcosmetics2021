@@ -1,5 +1,16 @@
 {{ partial "global/head" . }}
 {{ partial "global/navbar" . }}
+<div class="section">
+    <div class="container">
+        <div class="columns is-vcentered is-mobile is-variable is-0">
+            <div class="column">
+                <div class="banner-page has-text-centered">
+                    <h1 class="head is-1 has-text-centered page-title">{{ .Title }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {{ block "main" . }}
 
 {{ end }}
