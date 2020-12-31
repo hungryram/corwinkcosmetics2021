@@ -123,6 +123,46 @@ fields:
           maxSize: 64
         label: Image
       label: Featured Two
+    - name: featured_three
+      type: field_group
+      config: {}
+      fields:
+      - name: heading
+        type: text
+        config:
+          required: false
+        label: Heading
+      - name: link
+        type: text
+        config:
+          required: false
+        label: Link
+      - name: image
+        type: file
+        config:
+          maxSize: 64
+        label: Image
+      label: Featured Three
+    - name: featured_four
+      type: field_group
+      config: {}
+      fields:
+      - name: heading
+        type: text
+        config:
+          required: false
+        label: Heading
+      - name: link
+        type: text
+        config:
+          required: false
+        label: Link
+      - name: image
+        type: file
+        config:
+          maxSize: 64
+        label: Image
+      label: Featured Four
     label: Featured
   label: Home Layout
 - name: footer
