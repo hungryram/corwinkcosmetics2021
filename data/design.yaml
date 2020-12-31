@@ -9,11 +9,11 @@ home_slideshow:
   slideshow_title: "**Luxury** at an Affordable Price"
   slideshow_subtitle: Luxury Lashes by Corwink
   image: https://res.cloudinary.com/hungryram19/image/upload/v1609126434/corinne-renteria/corwinkcosmetics/background9_dzbt1e.jpg
-  hero_subtitle: Corwink Cosmetics
-  hero_title: Winter Wink Collections
-  button_text: Shop the Classics
-  button_link: "/products"
-  body: With Corwink Cosmetics you should always feel beautiful
+  hero_subtitle: CorWink Cosmetics
+  hero_title: Winter Wink Collection
+  button_text: Shop
+  button_link: "/collections/seasonal-winter-wink-collection/"
+  body: Limited time only until January 11th.
 colors:
   enable_black_menu_items: true
   header_background_color: "#FFFFFF"
