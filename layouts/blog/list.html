@@ -11,7 +11,8 @@
 
                 <div class="columns is-multiline">
                 {{ range .Pages.ByWeight }}
-                    <div class="column is-6">
+                    <div class="column">
+                        {{ partial "templates/blog-thumbnail" . }}
                     </div>   
                 {{ end }}
                 </div>

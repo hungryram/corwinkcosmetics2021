@@ -60,6 +60,10 @@ h6.title,
     font-family: 'Roboto', sans-serif;
 }
 
+.secondary-btn {
+    color: #AC94E8;
+}
+
 .is-7 {
     font-size: 12px;
 }
@@ -139,6 +143,8 @@ a.hero-btn {
     border-radius: 25px;
 }
 
+
+
 /* PRODUCT */
 
 div.card-image img {
@@ -146,6 +152,13 @@ div.card-image img {
     height: 300px;
     object-fit: cover!important;
     object-position: center;
+    transition: .2s;
+
+}
+
+div.card-image img:hover {
+    opacity: .8;
+    transition: .2s;
 }
 
 .product__title p {
@@ -178,6 +191,7 @@ div.card-image img {
     font-size: 14px;
     margin: 5px;
     position: absolute;
+    left: 0;
 }
 
 
@@ -303,6 +317,14 @@ select.selectVar {
     color: #111111;
 }
 
+.dots {
+    height: 15px;
+    width: 15px;
+    background: #86cced;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
 .product_details .columns {
     background: #eee;
 }
@@ -378,6 +400,36 @@ select.selectVar {
 a.category__item:hover {
 	padding-left: 3px;
 	transition: padding .3s ease
+}
+
+/* CONTACT PAGE */
+
+div.form-container {
+    background: #f0eaff;
+    padding: 20px;
+}
+
+input.input,
+textarea.textarea {
+    border: 0;
+    border-radius: 0;
+}
+
+/* BLOG */
+
+div.blog__post p,
+div.blog__post li,
+div.blog__post strong,
+div.blog__post em {
+    font-size: 16px;
+    color: #424242;
+}
+
+div.blog__post a {
+    color: #ac94e8;
+    font-size: 16px;
+    text-decoration: underline;
+
 }
 
 /* SNIPCART */
