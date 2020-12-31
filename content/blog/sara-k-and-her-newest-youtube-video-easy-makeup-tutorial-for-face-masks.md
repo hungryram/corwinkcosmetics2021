@@ -1,7 +1,7 @@
 +++
 categories = ["Makeup", "Makeup Tutorials", "YouTubers"]
 date = 2020-08-15T07:00:00Z
-featured_image = "/uploads/screen-shot-2020-08-15-at-9-52-19-pm.png"
+featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1609121749/corinne-renteria/corwinkcosmetics/screen-shot-2020-08-15-at-9-52-19-pm_hv1si3.png"
 tags = ["Makeup", "Makeup Tutorials", "YouTubers", "pandemic", "masks"]
 title = "Sara K & Her Newest YouTube Video \"Easy Makeup Tutorial For Face Masks\""
 [search_engine_optimization]
