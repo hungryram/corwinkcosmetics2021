@@ -2,7 +2,8 @@
 collections = ["Corwink Classics"]
 customOptions = []
 eyeliners = []
-gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609121736/corinne-renteria/corwinkcosmetics/divine-3_yerq77.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121735/corinne-renteria/corwinkcosmetics/divine-1_kfr1sp.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121735/corinne-renteria/corwinkcosmetics/divine-2_z97owp.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121736/corinne-renteria/corwinkcosmetics/divine-5_pukw2u.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121737/corinne-renteria/corwinkcosmetics/divine-lash_ao1kty.png"]
+gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1609372826/corinne-renteria/corwinkcosmetics/divine-3_cropped_getq24.png", "https://res.cloudinary.com/hungryram19/image/upload/v1609121735/corinne-renteria/corwinkcosmetics/divine-1_kfr1sp.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121735/corinne-renteria/corwinkcosmetics/divine-2_z97owp.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121736/corinne-renteria/corwinkcosmetics/divine-5_pukw2u.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1609121737/corinne-renteria/corwinkcosmetics/divine-lash_ao1kty.png"]
+lash-materials = []
 lash-types = ["Strip Lashes"]
 on_sale = false
 order_products = "4"
