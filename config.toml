@@ -1,5 +1,6 @@
 baseURL = "https://corwink2021.netlify.app/"
 languageCode = "en-us"
+canonifyUrls = "false"
 [[menu.main]]
 name = "Shop"
 weight = 5
